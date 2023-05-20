@@ -5,7 +5,7 @@
     "experimentalDecorators": true,
     "allowJs": false,
     "checkJs": false,
-    "outDir": "lib",
+    "outDir": "dist",
     "strict": false,
     "strictNullChecks": true,
     "skipLibCheck": true,
@@ -17,5 +17,10 @@
     "lib": ["es2020", "esnext.array", "DOM"]
   },
   "include": ["./"],
-  "exclude": ["node_modules", "src/Tests/*", "src/Binary/GenerateStatics.ts"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/Tests/*",
+    "src/Binary/GenerateStatics.ts"
+  ]
 }
