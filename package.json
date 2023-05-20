@@ -3,8 +3,6 @@
   "version": "5.0.0",
   "description": "WhatsApp API",
   "homepage": "https://github.com/adiwajshing/Baileys",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "keywords": [
     "whatsapp",
     "js-whatsapp",
